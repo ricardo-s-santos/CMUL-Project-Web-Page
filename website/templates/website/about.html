@@ -1,0 +1,45 @@
+{% extends 'website/layout.html' %}
+
+
+{% block main %}
+    <style>
+        .avatar {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <div class="col-md-8">
+        <h2>Sobre este website</h2>
+        <p>Website desenvolvido no âmbito da Disciplina de Comunicação Multimédia.</p>
+        <p>Doncente responsável: Fernando Pereira</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/IST_logo.png' %}" alt="IST Logo" width="100%" height="90%">
+    </div>
+    <div class="col-md-12">
+        <hr>
+        <h1>Website realizado por:</h1>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/IST_logo.png' %}" alt="" class="avatar" width="50%" height="60%" }>
+        <h2 style="text-align: center">Ana Rita Ramalho</h2>
+        <h3 style="text-align: center">98466</h3>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/IST_logo.png' %}" alt="" class="avatar" width="50%" height="60%" }>
+        <h2 style="text-align: center">Felícia Cruz</h2>
+        <h3 style="text-align: center">93987</h3>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/RS.png' %}" alt="" class="avatar" width="50%" height="60%" }>
+        <h2 style="text-align: center">Ricardo Santos</h2>
+        <h3 style="text-align: center">102217</h3>
+    </div>
+{% endblock main %}
+      
