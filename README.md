@@ -1,4 +1,4 @@
-#Página Web do Projecto de Comunicação Multimédia
+# Página Web do Projecto de Comunicação Multimédia
 
 Professor Responsável -> Fernando Pereira
 
