@@ -1,0 +1,107 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <style>
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <div class="col-md-12">
+        <h2>O Futuro...</h2>
+        <p>Niguém sabe o que o futuro nos pode trazer mas, temos algumas previsões...</p>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px;text-align: center">
+        <h2>Redes sociais aliadas à realidade virtual?</h2>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px;text-align: center">
+        <h2>Redes sociais aliadas à Inteligência Artificial?</h2>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px;text-align: center">
+        <h2>Redes Sociais aliadas à computação na Nuvem?</h2>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/vr.png' %}" alt="" class="image" width="100%" height="90%" }>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/IA.png' %}" alt="" class="image" width="100%" height="90%" }>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/cloud.png' %}" alt="" class="image" width="100%" height="90%" }>
+    </div>
+    <div class="col-md-4">
+        <p>Esta tecnologia tem como objetivo criar uma sensação de presença num ambiente virtual, ou seja, que o
+            utilizador se sinta imerso no mundo virtual. Desta forma, seria interessante criar uma rede social que
+            consiste num mundo virtual com vários utilizadores, proporcionando uma interação entre eles bastante próxima
+            da realidade.</p>
+    </div>
+    <div class="col-md-4">
+        <p>Com o recente avanço nesta área, tornou-se possível analisar o comportamento de cada utilizador e perceber
+            quais os seus conteúdos de seleção. Assim, torna-se possível propor melhores sugestões de conteúdo.
+        </p>
+        <p>Para
+            além destes aspetos, a IA permite melhorar fotografias e vídeos. Ao analisar uma fotografia utilizando
+            IA, é possível alterar parâmetros como a luminosidade ou o brilho, tornando-a melhor.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <p>Através do processamento de dados na cloud poderá ser possível, por exemplo, criar vídeos com resoluções cada
+            vezes maiores. A maior resolução dos vídeos exige um hardware mais potente para a sua codificação e
+            descodificação. Como o hardware disponível nos serviços cloud é muito superior ao que está presente no lado
+            do utilizador, este problema é facilmente ultrapassado. </p>
+    </div>
+    <div class="col-md-2" style="padding-top: 20px">
+    </div>
+    <div class="col-md-4" style="padding-top: 20px;text-align: center">
+        <h2>O avanço das redes móveis</h2>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px;text-align: center">
+        <h2>Codecs de vídeo e imagem mais eficientes</h2>
+    </div>
+    <div class="col-md-2" style="padding-top: 20px">
+    </div>
+    <div class="col-md-2" style="padding-top: 20px">
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/5g.png' %}" alt="" class="image" width="100%" height="90%" }>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/codecs.png' %}" alt="" class="image" width="100%" height="90%" }>
+    </div>
+    <div class="col-md-2" style="padding-top: 20px">
+    </div>
+    <div class="col-md-2" style="padding-top: 20px">
+    </div>
+    <div class="col-md-4">
+        <p>O avanço das redes móveis, como o 5G, tem vindo a impulsiona a utilização da multimédia nas redes sociais.
+            Esta evolução traduz-se no aumento da velocidade de download e upload, tornando possível, por exemplo, a
+            visualização de vídeos com cada vez maior resolução em qualquer lugar.</p>
+    </div>
+    <div class="col-md-4">
+        <p> O objetivo desejado para qualquer codec é que se atinja uma qualidade transparente, utilizando o
+            mínimo de largura de banda possível.</p>
+        <p>Estão em desenvolvimento novos codecs para vídeo, como o EVC e o LCEVC. Estes, prometem ser mais eficientes e
+            não ter os problemas
+            com o licenciamento que ocorreram com o HEVC e que poderão vir a acontecer com o VVC, o codec mais
+            recente.</p>
+        <p>Para a fotografia o codec AVIF, desenvolvido pela Alliance For Open Media, poderá vir a ser o futuro. Por ser
+            desenvolvido por esta aliança a sua expansão e implementação em vários dispositivos será relativamente
+            simples.</p>
+    </div>
+    <div class="col-md-2" style="padding-top: 20px">
+    </div>
+      <div class="col-md-12" style="padding-top: 20px; text-align: center">
+        <hr>
+        <h2>Facebook Horizon VR Social Media</h2>
+        <p></p>
+        <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/5c44q1XW9p4">
+        </iframe>
+    </div>
+{% endblock main %}

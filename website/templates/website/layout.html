@@ -37,30 +37,30 @@
                 <a class="nav-link" href=" {% url 'website:index' %} ">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=" {% url 'website:about' %} ">Evolução</a>
+                <a class="nav-link" href=" {% url 'website:evolucao' %} ">Evolução</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=" {% url 'website:about' %} ">Tecnologia</a>
+                <a class="nav-link" href=" {% url 'website:tecnologia' %} ">Tecnologia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=" {% url 'website:about' %} ">Modelos de Negócio</a>
+                <a class="nav-link" href=" {% url 'website:bussiness_models' %} ">Modelos de Negócio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=" {% url 'website:about' %} ">Interfaces</a>
+                <a class="nav-link" href=" {% url 'website:interfaces' %} ">Interfaces</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">Impactos</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown03">
-                    <a class="dropdown-item" href="#">Sociais</a>
-                    <a class="dropdown-item" href="#">Éticos e Legais</a>
+                    <a class="dropdown-item" href="{% url 'website:impactos_sociais' %}">Sociais</a>
+                    <a class="dropdown-item" href="{% url 'website:impactos_eticos' %}">Éticos e Legais</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=" {% url 'website:about' %} ">Em Portugal</a>
+                <a class="nav-link" href=" {% url 'website:portugal' %} ">Em Portugal</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href=" {% url 'website:about' %} ">O Futuro...</a>
+                <a class="nav-link" href=" {% url 'website:futuro' %} ">O Futuro...</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href=" {% url 'website:about' %} ">Sobre</a>
