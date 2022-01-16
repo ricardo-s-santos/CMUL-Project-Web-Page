@@ -1,8 +1,13 @@
 {% extends 'website/layout.html' %}
 
 {% block main %}
- <div class="col-md-12">
+    <div class="col-md-12">
         <h2>Evolução</h2>
-
+        <p>A evolução das redes sociais deriva da capacidade de satisfazer em tempo real as exigências dos
+            utilizadores. </p>
+    </div>
+    <div class="col-md-12" style="padding-top: 10px">
+        {% load static %}
+        <img src=" {% static 'website/images/evolution.png' %}" alt="" class="image" width="100%" height="100%">
     </div>
 {% endblock main %}

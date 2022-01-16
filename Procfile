@@ -1,0 +1,1 @@
+web: gunicorn ccMatagoza.wsgi --log-file -
