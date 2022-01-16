@@ -1,1 +1,1 @@
-web: gunicorn ccMatagoza.wsgi --log-file -
+web: gunicorn CmulWebPage.wsgi --log-file -
