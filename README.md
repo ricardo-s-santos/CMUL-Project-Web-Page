@@ -4,6 +4,8 @@ Professor Responsável -> Fernando Pereira
 
 Website desenvolvido em Django.
 
+Disponível em -> https://multimedia-redes-sociais-cmul.herokuapp.com
+
 Autores:
 
 -> Ana Rita Ramalho
