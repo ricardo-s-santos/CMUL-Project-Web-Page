@@ -1,8 +1,77 @@
 {% extends 'website/layout.html' %}
 
 {% block main %}
+    <style>
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
     <div class="col-md-12">
         <h2>Impactos Éticos e Legais</h2>
-
+        <p>A utilização da multimédia nas redes sociais apresenta um conjunto de impactos éticos e legais, sendo a
+            violação de direitos de autor (copyright) e a violação da propriedade intelectual, dois exemplos. </p>
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+    <div class="col-md-8">
+        <h3>Direitos de autor</h3>
+        <p>Os direitos de autor atribuem proteção legal a um criador de conteúdo.</p>
+        <p>No caso das redes sociais, a partilha de conteúdo é extremamente fácil, o que faz com que a propriedade
+            intelectual dos utilizadores seja constantemente invadida. </p>
+        <p>Um exemplo bastante comum é a utilização de músicas em vídeos no Youtube sem pedir licença.</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/cp.png' %}" alt="" width="100%" height="100%">
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+    <div class="col-md-8">
+        <h3>General Data Protection Regulation (GPRD)</h3>
+        <p>Os direitos de autor atribuem proteção legal a um criador de conteúdo.</p>
+        <p>No caso das redes sociais, a partilha de conteúdo é extremamente fácil, o que faz com que a propriedade
+            intelectual dos utilizadores seja constantemente invadida. </p>
+        <p>Um exemplo bastante comum é a utilização de músicas em vídeos no Youtube sem pedir licença.</p>
+        <p>Pode ler mais sobre o GPRD <a
+                href="https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_pt"
+                target="_blank">aqui.</a></p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/gprd.png' %}" alt="" width="100%" height="100%">
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+    <div class="col-md-8">
+        <h3>Privacidade</h3>
+        <p>A privacidade dos utilizadores nas redes sociais é um tema que tem vindo a ser discutido nos últimos
+            anos.</p>
+        <p>O Facebook tem sido o principal alvo de críticas. Devido ao seu protagonismo, alguns utilizadores começaram a
+            deixar de utilizar e confiar nesta rede social. (Notícia completa <a
+                    href="https://www.washingtonpost.com/technology/2021/12/22/tech-trust-survey/"
+                    target="_blank">aqui</a>).</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/lock.gif' %}" class="image" alt="" width="50%" height="100%">
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+    <div class="col-md-8">
+        <h3>Roubos de identidade e fraude</h3>
+        <p>a partilha de informação pessoal, tal como, data de nascimento, local de residência, endereço de morada, etc,
+            pode trazer consequências</p>
+        <p>Devido à facilidade de acesso a este tipo de dados é comum ocorrerem roubos de entidade e fraude
+            bancária.</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/scam.gif' %}" class="image" alt="" width="50%" height="100%">
     </div>
 {% endblock main %}
