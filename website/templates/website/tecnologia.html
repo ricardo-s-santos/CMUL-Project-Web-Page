@@ -1,8 +1,27 @@
 {% extends 'website/layout.html' %}
 
 {% block main %}
- <div class="col-md-12">
+    <style>
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <div class="col-md-12">
         <h2>Tecnologia</h2>
-
+    </div>
+    <div class="col-md-12" style="padding-top: 10px">
+        {% load static %}
+        <img src=" {% static 'website/images/arquitectura.png' %}" alt="" class="image">
+    </div>
+    <div style="padding-top: 20px" class="col-md-12">
+        <p>A maior parte das redes sociais utiliza o modelo cliente-servidor.</p>
+        <p>Neste modelo, o utilizador acede à rede social através de uma página Web ou aplicação móvel.</p>
+        <p>A interação com
+            a interface do utilizador resulta de pedidos feitos ao servidor que contêm, na maioria das redes sociais,
+            uma Application Programming Interface (API) com vários micro serviços.</p>
+        <p>A utilização deste tipo de arquitetura permite escalabilidade e uma fácil manutenção, uma vez que, a API está
+            divida em vários micro serviços e se um deixar de funcionar, apenas esta funcionalidade é afetada</p>
     </div>
 {% endblock main %}
