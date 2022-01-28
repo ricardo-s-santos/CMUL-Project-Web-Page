@@ -1,8 +1,41 @@
 {% extends 'website/layout.html' %}
 
 {% block main %}
- <div class="col-md-12">
+    <div class="col-md-8">
         <h2>Impactos Sociais</h2>
-
+        <p style="text-align: justify">A utilização das redes sociais provoca impactos positivos e negativos na
+            sociedade. O facto de não existirem
+            mecanismos de controlo máximo aplicados aos conteúdos partilhados pelos utilizadores, faz com que este seja
+            um tópico bastante polémico.</p>
+        <p style="text-align: justify">Os impactos negativos, que tornam os utilizadores “vítimas” das redes sociais,
+            refletem um conjunto de
+            problemas mentais tais como, ansiedade, isolamento, sedentarismo, desvalorização própria, ciberbullying e
+            falta de privacidade. Em situações extremas, estes impactos podem fazer com que muitos utilizadores cometam
+            suicídio</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/social_impacts.jpg' %}" class="image" alt="" width="70%" height="100%">
+    </div>
+    <div class="col-md-12">
+        <hr>
+    </div>
+    <div class="col-md-8">
+        <h2>Mitigação dos impactos negativos nos mais novos</h2>
+        <p style="text-align: justify">Para mitigar os impactos negativos é bastante importante apresentar cuidados
+            acrescidos aquando da utilização
+            das redes sociais por parte de
+            crianças e adolescentes. Isto porque, a supervisão torna-se insuficiente quando o acesso a conteúdos online
+            se encontra à distância de um simples click.</p>
+        <p style="text-align: justify">O facto da maior parte da interação online ocorrer nestas faixas etárias faz com
+            que as mesmas se tornem
+            bastante vulneráveis a ciberataques. </p>
+        <p style="text-align: justify">A sua ignorância e inocência faz com que sejam expostos a comportamentos menos
+            apropriados, influenciando
+            negativamente os seus valores.</p>
+    </div>
+    <div class="col-md-4">
+        {% load static %}
+        <img src=" {% static 'website/images/kids.jpg' %}" class="image" alt="" width="70%" height="100%">
     </div>
 {% endblock main %}

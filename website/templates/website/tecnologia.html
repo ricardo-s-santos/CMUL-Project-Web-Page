@@ -16,12 +16,50 @@
         <img src=" {% static 'website/images/arquitectura.png' %}" alt="" class="image">
     </div>
     <div style="padding-top: 20px" class="col-md-12">
-        <p>A maior parte das redes sociais utiliza o modelo cliente-servidor.</p>
-        <p>Neste modelo, o utilizador acede à rede social através de uma página Web ou aplicação móvel.</p>
-        <p>A interação com
+        <p style="text-align: justify">A maior parte das redes sociais utiliza o modelo cliente-servidor. Neste modelo,
+            o utilizador acede à rede social através de uma página Web ou
+            aplicação móvel. A interação com
             a interface do utilizador resulta de pedidos feitos ao servidor que contêm, na maioria das redes sociais,
-            uma Application Programming Interface (API) com vários micro serviços.</p>
-        <p>A utilização deste tipo de arquitetura permite escalabilidade e uma fácil manutenção, uma vez que, a API está
-            divida em vários micro serviços e se um deixar de funcionar, apenas esta funcionalidade é afetada</p>
+            uma Application Programming Interface (API) com vários micro serviços. A utilização deste tipo de
+            arquitetura permite escalabilidade e uma fácil
+            manutenção, isto porque, a API está
+            divida em vários micro serviços e se um deixar de funcionar, apenas esta funcionalidade é afetada.</p>
+    </div>
+    <div style="padding-top: 20px" class="col-md-12">
+        <hr>
+        <h2>Codecs</h2>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/imagem.png' %}" alt="" class="avatar" width="100%" height="70%" }>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/audio.png' %}" alt="" class="avatar" width="100%" height="70%" }>
+    </div>
+    <div class="col-md-4" style="padding-top: 20px">
+        {% load static %}
+        <img src=" {% static 'website/images/video.png' %}" alt="" class="avatar" width="100%" height="70%" }>
+    </div>
+
+    <div class="col-md-4">
+        <h3 style="text-align: center">Imagem</h3>
+        <p style="text-align: justify">O JPEG é o codec mais utilizado devido à sua performance e por ser
+            royalty-free. </p>
+    </div>
+
+    <div class="col-md-4">
+        <h3 style="text-align: center">Áudio</h3>
+        <p style="text-align: justify">Os codecs de áudio mais utilizados pelas redes sociais são o MPEG-1 Audio Layer
+            III (MP3) e o Advanced Audio
+            Coding
+            (AAC). </p>
+    </div>
+
+    <div class="col-md-4">
+        <h3 style="text-align: center">Vídeo</h3>
+        <p style="text-align: justify">A maior parte das redes sociais utiliza o MPEG-4 ou o H.264 devido à sua boa
+            qualidade e taxa de bit rate
+            reduzida, comparativamente a outros codecs.</p>
     </div>
 {% endblock main %}
