@@ -3,7 +3,7 @@ brew==0.1.3
 certifi==2021.10.8
 charset-normalizer==2.0.10
 distlib==0.3.4
-Django==4.1.10
+Django==4.1.13
 filelock==3.4.2
 gunicorn==20.1.0
 heroku==0.1.4
